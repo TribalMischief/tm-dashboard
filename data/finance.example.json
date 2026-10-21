@@ -1,0 +1,10 @@
+{"owner":"Josh","note":"No figures yet. Null values render as awaiting data.",
+ "tiles":[
+  {"id":"cash","title":"Cash on hand","source":"QuickBooks bank balances","asOf":null,"value":null},
+  {"id":"ar_aging","title":"Receivables aging","source":"QuickBooks","asOf":null,"rows":[{"label":"Current","value":null},{"label":"30 days","value":null},{"label":"60 days","value":null},{"label":"90+ days","value":null}]},
+  {"id":"open_invoices","title":"Open invoices","source":"QuickBooks","asOf":null,"invoices":null,"columns":["Client","Amount","Due","Days overdue"]},
+  {"id":"mor_billing","title":"MOR Wealth billing","source":"QuickBooks","asOf":null,"rows":[{"label":"Billed YTD","value":null},{"label":"Paid YTD","value":null}],"notes":["Pending 8% sales-tax catch-up: pending, not yet invoiced"]},
+  {"id":"spend","title":"Monthly spend by category","source":"QuickBooks","asOf":null,"categories":null,"columns":["Category","This month","3-mo avg"]},
+  {"id":"revenue","title":"Revenue and net","source":"QuickBooks","asOf":null,"rows":[{"label":"Revenue MTD","value":null},{"label":"Revenue YTD","value":null},{"label":"Net YTD","value":null}]},
+  {"id":"forecast","title":"90-day cash forecast","source":"Josh","asOf":null,"weeks":null}
+ ]}
