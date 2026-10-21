@@ -1,0 +1,8 @@
+{
+  "name": "tm-dashboard",
+  "private": true,
+  "scripts": {
+    "build": "node build.mjs",
+    "deploy": "DEPLOY=1 node build.mjs && netlify deploy --prod --dir dist"
+  }
+}
